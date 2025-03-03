@@ -20,24 +20,22 @@ Este proyecto se centra en el desarrollo de consultas dinámicas en Python para 
 
 ## Resultados clave  
 
-### **Análisis Integrado de la Base de Datos Chinook**  
+### **Análisis de Ventas**  
+- **Consultas SQL dinámicas:** Se implementaron filtros flexibles para consultar ventas por **año, país y monto mínimo**.  
+- **Generación de gráficos:** Se crearon visualizaciones de la tendencia de ventas mensuales y distribución de ventas por país.  
+- **Estadísticas extraídas:** Se calcularon métricas como total de ventas y número de transacciones sin necesidad de definir valores específicos en el código.  
 
-- **Explicación breve del análisis:**  
-  Se implementaron consultas dinámicas para extraer información relevante en tres áreas: análisis de ventas, búsqueda de canciones y análisis de géneros musicales. Cada función permite ajustar los filtros de manera interactiva, lo que facilita obtener insights precisos y visualmente atractivos sobre la base de datos.  
+### **Búsqueda de Canciones**  
+- **Implementación de una query flexible:** Se desarrollaron funciones en Python para buscar canciones por **género, duración y artista** sin necesidad de modificar la estructura de la base de datos.  
+- **Visualizaciones generadas:** Histogramas de distribución de duraciones, gráficos de top artistas y análisis de precios por género.  
+- **Estadísticas extraídas:** Se calcularon métricas como cantidad total de canciones y promedio de duración de cada género.  
 
-- **Métricas relevantes o hallazgos:**  
-  - **Ventas:** Se obtuvieron métricas como total de ventas, promedio por transacción, número de transacciones y top 5 países con mayores ingresos.  
-  - **Canciones:** Se analizaron el total de canciones, duración y precio promedio, además de identificar el top 10 de artistas según el número de canciones.  
-  - **Géneros Musicales:** Se evaluaron estadísticas por género, identificando el género con mayor número de tracks, mayor duración promedio y precio promedio más alto.  
-
-- **Tablas o valores clave:**  
-
-| Variable         | Métrica 1          | Métrica 2          |
-|------------------|--------------------|--------------------|
-| Ventas Totales   | XX.XX (monto)      | XX.XX (transacciones) |
-| Canciones Totales| XX.XX (duración)   | XX.XX (precio promedio) |
+### **Análisis de Géneros Musicales**  
+- **Consultas estructuradas:** Se analizaron los géneros musicales en términos de número de tracks, duración y precios.  
+- **Gráficos clave:** Se visualizaron comparaciones entre géneros para detectar tendencias.  
+- **Insights obtenidos:** Se identificaron los géneros con más canciones, mayor duración promedio y mayor precio sin necesidad de definir valores manualmente.  
 
 ## Conclusión  
-✅ **El proyecto demuestra que la implementación de consultas dinámicas en Python facilita el análisis profundo y flexible de la base de datos Chinook, permitiendo extraer insights valiosos a través de filtros ajustables y visualizaciones interactivas.**  
+✅ **El proyecto permitió desarrollar consultas dinámicas en SQL dentro de Python para analizar la base de datos Chinook sin requerir valores fijos en el código. Se logró flexibilidad en la extracción de datos y generación de gráficos clave.**  
 
-📌 **Se recomienda explorar mejoras en la optimización de las consultas, ampliar las visualizaciones para incluir análisis en tiempo real y considerar la integración de técnicas avanzadas de análisis predictivo para futuras implementaciones.**  
+📌 **Se recomienda explorar la optimización de consultas y ampliar la visualización con dashboards interactivos para una mejor exploración de los datos.**  
