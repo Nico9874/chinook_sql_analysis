@@ -1,22 +1,22 @@
-# Ejercicio de Query Dinámicas en Python con Base de Datos Chinook
+# Ejercicio de Query Dinámicas con SQL y Python en la Base de Datos Chinook
 
 ## Descripción  
-Este proyecto se centra en el desarrollo de consultas dinámicas en Python para el análisis de la base de datos **Chinook**. Se han implementado funciones que permiten filtrar y analizar datos en tres ámbitos principales:  
+Este proyecto se centra en el desarrollo de consultas dinámicas utilizando **SQL y Python** para el análisis de la base de datos **Chinook**. Se han implementado funciones que permiten filtrar y analizar datos en tres ámbitos principales:  
 
 - **Análisis de Ventas:** Filtrado por año, país y monto mínimo, con agrupación por mes para evaluar la tendencia de ventas.  
 - **Búsqueda de Canciones:** Consultas dinámicas que permiten buscar canciones según género, duración y nombre del artista.  
 - **Análisis de Géneros Musicales:** Evaluación de la distribución de tracks, duración promedio y precio promedio por género, con filtros opcionales para identificar géneros destacados.  
 
 ## Tecnologías utilizadas  
-- **Lenguaje / Framework:** Python  
+- **Lenguaje / Framework:** SQL, Python, SQLAlchemy, PostgreSQL, MySQL, SQLite  
 - **Librerías o paquetes clave:**  
+  - `sqlalchemy`: Manejo avanzado de bases de datos y conexión flexible  
   - `pandas`: Manipulación y análisis de datos  
-  - `sqlite3`: Conexión con la base de datos Chinook  
+  - `sqlite3`, `pymysql`, `psycopg2-binary`: Conexión con bases de datos SQLite, MySQL y PostgreSQL  
   - `matplotlib`, `seaborn`: Visualización de datos  
-- **Algoritmos o modelos utilizados:**  
-  - Consultas dinámicas para filtrar datos  
-  - Agrupación y agregación de datos  
-  - Generación de visualizaciones y estadísticas descriptivas  
+  - `requests`: Obtención de datos externos  
+  - `datetime`: Manejo de fechas  
+  - `matplotlib.ticker.FuncFormatter`: Formateo de gráficos avanzados  
 
 ## Resultados clave  
 
@@ -36,6 +36,6 @@ Este proyecto se centra en el desarrollo de consultas dinámicas en Python para 
 - **Insights obtenidos:** Se identificaron los géneros con más canciones, mayor duración promedio y mayor precio sin necesidad de definir valores manualmente.  
 
 ## Conclusión  
-✅ **El proyecto permitió desarrollar consultas dinámicas en SQL dentro de Python para analizar la base de datos Chinook sin requerir valores fijos en el código. Se logró flexibilidad en la extracción de datos y generación de gráficos clave.**  
+✅ **El proyecto permitió desarrollar consultas dinámicas en SQL y Python para analizar la base de datos Chinook sin requerir valores fijos en el código. Se logró flexibilidad en la extracción de datos y generación de gráficos clave.**  
 
 📌 **Se recomienda explorar la optimización de consultas y ampliar la visualización con dashboards interactivos para una mejor exploración de los datos.**  
