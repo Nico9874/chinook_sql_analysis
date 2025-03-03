@@ -1,4 +1,4 @@
-# Ejercicio de Query Dinámicas con SQL y Python en la Base de Datos Chinook
+# Query Dinámicas con SQL y Python en la Base de Datos Chinook
 
 ## Descripción  
 Este proyecto se centra en el desarrollo de consultas dinámicas utilizando **SQL y Python** para el análisis de la base de datos **Chinook**. Se han implementado funciones que permiten filtrar y analizar datos en tres ámbitos principales:  
